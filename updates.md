@@ -1,5 +1,9 @@
 Updates to the Free Law Machine are listed here by date.
 
+2014-09-24:
+ - A new version of the FLM was created at the request of a contributor. 
+   This new version updates the code and dependencies and is considered v1.1.
+
 2013-11-19:
  - This version of the FLM updates the code significantly, bringing in the 
    various improvements and dependencies that have grown out of the last
