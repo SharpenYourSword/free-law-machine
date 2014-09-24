@@ -120,6 +120,14 @@ Global Software Changes
 	+ Xacobeo -- For XPath work (though we generally recommend the Free Law 
 	  XPath tester at http://xpath.courtlistener.com)
 	+ htop, vim
+	
+A number of aliases have been set up:
+ - cl --> shortcut command to get to the CourtListener code directory
+ - js --> Same for Juriscraper
+ - tarx --> Helps extract tar archives.
+ ...
+
+You can see more of these in the ~/.bashrc file provided.
 
 Again, we can't thank you enough for your contributions to the Free Law Project.
 Every bit of your efforts helps to ease the legal burden in America.
