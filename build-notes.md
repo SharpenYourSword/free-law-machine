@@ -32,15 +32,15 @@ Once complete, create the zip file by:
  1. Name the file: free-law-virtual-machine-vXX.zip
  1. Push that to the server using rsync and a command like:
 
-     rsync free-law-virtual-machine-v*.zip courtlistener.com:/home/mlissner
+         rsync free-law-virtual-machine-v*.zip courtlistener.com:/home/mlissner
  
  1. Move the file to the correct directory (`/sata/vm/`)
  1. Update the sha1 file by running:
  
-     sha1sum free-law-virtual-machine-v{your-version}.zip >> sha1.txt
+         sha1sum free-law-virtual-machine-v{your-version}.zip >> sha1.txt
  
  1. Finally, check it in, and push it up to git.
  
-     sudo -u www-data git commit -m "New version released!"
-     sudo -u www-data git push
+         sudo -u www-data git commit -m "New version released!"
+         sudo -u www-data git push
      
