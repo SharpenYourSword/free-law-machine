@@ -32,8 +32,8 @@ Once complete, create the zip file by:
  1. Name the file: free-law-virtual-machine-vXX.zip
  1. Push that to the server using rsync and a command like:
 
-         rsync free-law-virtual-machine-v*.zip courtlistener.com:/home/mlissner
- 
+         rsync -a --partial --append --progress free-law-virtual-machine-v*.zip courtlistener.com:/home/mlissner/
+
  1. Move the file to the correct directory (`/sata/vm/`)
  1. Update the sha1 file by running:
  
