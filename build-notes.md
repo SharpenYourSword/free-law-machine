@@ -37,7 +37,7 @@ Once complete, create the zip file by:
  1. Move the file to the correct directory (`/sata/vm/`)
  1. Update the sha1 file by running:
  
-         sha1sum free-law-virtual-machine-v{your-version}.zip >> sha1.txt
+         sha256sum free-law-virtual-machine-v{your-version}.zip >> sha2.txt
  
  1. Finally, check it in, and push it up to git.
  
