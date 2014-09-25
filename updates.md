@@ -3,6 +3,12 @@ Updates to the Free Law Machine are listed here by date.
 2014-09-24:
  - A new version of the FLM was created at the request of a contributor. 
    This new version updates the code and dependencies and is considered v1.1.
+ - Relevant changes include:
+   - Libreoffice and Thunderbird have been deleted.
+   - Intellij's license has been updated and the installed version bumped to 13.
+   - All Ubuntu updates are installed.
+   - CourtListener and Juriscraper are now upgraded and both are connected to git 
+     instead of hg.
 
 2013-11-19:
  - This version of the FLM updates the code significantly, bringing in the 
