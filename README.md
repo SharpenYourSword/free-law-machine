@@ -9,10 +9,10 @@ Note: Be sure virtualization support is not turned off in your BIOS. Some
     laptops come this way.
 
 1. Download .zip from https://www.courtlistener.com/tools/free-law-machine/
-   You can ensure your download worked by checking the value of the sha1 sum
-   in sha1.txt.
-2. On Linux we have run into problems with kernels other than 3.5. If you 
-   encounter stability issues, you may want to investigate compiling the 3.5.0
+   You can ensure your download worked by checking the value of the sha2 sum
+   in sha2.txt.
+2. On Linux we have run into problems with kernels older than 3.5. If you 
+   encounter stability issues, you may want to investigate compiling the > 3.5.0
    kernel from http://www.kernel.org/pub/linux/kernel/v3.x/linux-3.5.tar.xz
    on your host machine.
 3. Unzip our .zip file
