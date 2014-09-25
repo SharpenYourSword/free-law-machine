@@ -1,0 +1,4 @@
+7c71084c6a6c3bd204fdc10f1821c4fc217046d5b786010b4fd0ceb57351864a  free-law-virtual-machine-beta.zip
+de8bd927b75d9dd943b8d37721f120d4901d57363d92badd27a5de7d8261c168  free-law-virtual-machine-v0.9.zip
+6bd3d1d583b075d786e3a3c0d80b04529588981212074a87b1e5ee239aa816eb  free-law-virtual-machine-v1.0.zip
+644f04d37840cfb7631ce56e8517088b82191015fb2c8ef9644f8d5dd508a7b1  free-law-virtual-machine-v1.1.zip
