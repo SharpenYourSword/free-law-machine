@@ -6,9 +6,9 @@ Before *shutting down* the VM (do not suspend), make sure:
 - Any nefarious Firefox history has been purged.
 - Apt is cleaned out:
 
-      sudo apt-get clean
-      sudo apt-get autoclean
-      sudo apt-get autoremove
+        sudo apt-get clean
+        sudo apt-get autoclean
+        sudo apt-get autoremove
 
 - If the output from `df -h` is significantly different than the size of the
   vmdk file, you can fix this by first filling the virtual drive with zeroes 
@@ -17,7 +17,7 @@ Before *shutting down* the VM (do not suspend), make sure:
   significantly. To do this process:
    
       sudo su
-      cat /dev/zero > wipefile; rm -f wipefile  
+      cat /dev/zero > wipefile; rm -f wipefile
       shutdown -h now
   
  Then, in the VMware Player, go to the machine's settings > Hard Disk > 
