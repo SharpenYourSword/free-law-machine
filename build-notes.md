@@ -34,6 +34,7 @@ Once complete, create the zip file by:
 
          rsync -a --partial --append --progress free-law-virtual-machine-v*.zip courtlistener.com:/home/mlissner/
 
+    (This command can then be re-run as necessary to restart the push.)
  1. Move the file to the correct directory (`/sata/vm/`)
  1. Update the sha1 file by running:
  
