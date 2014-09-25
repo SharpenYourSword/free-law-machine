@@ -5,9 +5,11 @@ Before *shutting down* the VM (do not suspend), make sure:
  - Intellij and Firefox were closed with the correct tabs open.
  - Any nefarious Firefox history has been purged.
  - Apt is cleaned out:
-     sudo apt-get clean
-     sudo apt-get autoclean
-     sudo apt-get autoremove
+
+       sudo apt-get clean
+       sudo apt-get autoclean
+       sudo apt-get autoremove
+
  - If the output from `df -h` is significantly different than the size of the
    vmdk file, you can fix this by first filling the virtual drive with zeroes 
    and then removing the zero-filled file. This requires slightly more space 
