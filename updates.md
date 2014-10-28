@@ -1,9 +1,11 @@
 # Updates to the Free Law Machine are listed here by date.
 
-## 2014-10-23, v2.0
+## 2014-10-23, v1.2
  - Updates Ubuntu to 14.04 LTS edition, as we've done on the live server.
  - Updates postgres to 9.3 from 9.1
  - Fixes issue #1 and issue #2 to include good data and have Intellij configured with the DB information
+ - Adds a few dependencies that somehow were missing.
+ - Upgrades the site to CourtListener 2.0
 
 ## 2014-09-24, v1.1
  - A new version of the FLM was created at the request of a contributor. 
