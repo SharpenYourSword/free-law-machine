@@ -43,12 +43,14 @@ Once complete, create the zip file by:
          sudo mv free-law-virtual-machine-v1.1.zip /sata/vm
          sudo chown www-data:www-data free-law-virtual-machine-v1.1.zip
 
- 1. Update the sha1 file by running:
+ 1. Update the sha2 file by running:
  
-         sha256sum free-law-virtual-machine-v{your-version}.zip >> sha2.txt
+         sha256sum free-law-virtual-machine-v{your-version}.zip | sudo tee -a sha2.txt
  
  1. Finally, check it in, and push it up to git.
  
-         sudo -u www-data git commit -m "New version released!"
-         sudo -u www-data git push
+         sudo git add sha2.txt
+         sudo git commit -m "New version released!"
+         sudo git pull
+         sudo git push
      
