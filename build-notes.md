@@ -1,3 +1,6 @@
+These notes explain how to create and push a new version of the Free Law
+Machine. If you are not doing that, you can safely ignore them.
+
 Before *shutting down* the VM (do not suspend), make sure:
 
 - Trash is empty.
